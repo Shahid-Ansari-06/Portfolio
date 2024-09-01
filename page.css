@@ -129,7 +129,7 @@ body {
     }
     .navbar .hamburger {
         display:flex;
-        padding-right: 10px;
+        padding-right: 15px;
         block-size:30px;
     }
     section {
