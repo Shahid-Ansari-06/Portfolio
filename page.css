@@ -95,7 +95,7 @@ body {
     .circle-container {
         width: 175px;
         height: 175px;
-        margin-top: 60px; /* Adjusted margin to account for fixed navbar */
+        margin-top: 55px; /* Adjusted margin to account for fixed navbar */
     }
     .about{
         font-size: medium;
