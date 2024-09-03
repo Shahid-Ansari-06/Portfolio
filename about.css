@@ -1,0 +1,43 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #000;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.about {
+    padding: 2rem;
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 8px;
+    margin: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about h1 {
+    margin-top: 0;
+}
+
+.about p {
+    line-height: 1.6;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #ffffff;
+    }
+
+    .about {
+        background-color: #1e1e1e;
+        color: #e0e0e0;
+        border: 1px solid #333;
+    }
+
+    .about h1 {
+        color: #ffffff;
+    }
+}
