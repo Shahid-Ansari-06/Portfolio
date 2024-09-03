@@ -1,9 +1,9 @@
 const text = "Web Developer";
         const newText = "Graphic Designer";
-        const typingSpeed = 100; // Speed of typing
-        const erasingSpeed = 50; // Speed of erasing
-        const delayBeforeErasing = 2000; // Delay before starting to erase
-        const delayBeforeTypingNewText = 1000; // Delay before typing new text
+        const typingSpeed = 100; 
+        const erasingSpeed = 50;
+        const delayBeforeErasing = 2000; 
+        const delayBeforeTypingNewText = 1000; 
         const dynamicText = document.getElementById('dynamic-text');
         
         function type(text, callback) {
