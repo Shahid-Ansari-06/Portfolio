@@ -15,7 +15,6 @@ body {
 .about{
     color:white;
 }
-/* Navigation Bar */
 .navbar {
     width: 100%;
     background-color: #333;
@@ -73,7 +72,6 @@ body {
     transition: 0.4s;
 }
 
-/* Circle Container Styles */
 .circle-container {
     position: relative;
     border-radius: 50%;
@@ -90,12 +88,12 @@ body {
     object-fit: cover;
 
 }
-/* Mobile Devices */
+
 @media (max-width: 600px) {
     .circle-container {
         width: 175px;
         height: 175px;
-        margin-top: 55px; /* Adjusted margin to account for fixed navbar */
+        margin-top: 55px; 
     }
     .about{
         font-size: medium;
@@ -165,8 +163,8 @@ body {
     }
     @media (prefers-color-scheme: light) {
         body {
-            background-color: hsl(0, 14%, 97%); /* Dark mode background */
-            color: #0f0e0e; /* Dark mode text color */
+            background-color: hsl(0, 14%, 97%);
+            color: #0f0e0e;
         }
     
         .about {
@@ -174,20 +172,20 @@ body {
         }
     
         .navbar {
-            background-color: #333; /* Dark mode background */
+            background-color: #333;
             box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
         }
     
         .navbar .logo {
-            color: #ffffff; /* Dark mode text color */
+            color: #ffffff;
         }
     
         .navbar .nav-links li a {
-            color: #fff; /* Dark mode text color */
+            color: #fff;
         }
     
         .navbar .hamburger span {
-            background-color: white; /* Dark mode icon color */
+            background-color: white;
         }
         .circle-container {
             border-color:black;}
@@ -201,12 +199,12 @@ body {
     
 }
 
-/* Tablet Devices */
+
 @media (min-width: 601px) and (max-width: 1024px) {
     .circle-container {
         width: 250px;
         height: 250px;
-        margin-top: 75px; /* Adjusted margin to account for fixed navbar */
+        margin-top: 75px;
     }
     .navbar .logo {
         color: #fff;
@@ -266,7 +264,7 @@ body {
     }
 }
 
-/* Laptop and Larger Screens */
+
 @media (min-width: 1025px) {
         .circle-container {
         width: 350px;
@@ -328,12 +326,12 @@ body {
         background-color: aquamarine;
     }
 }
-/* Laptop and Larger Screens */
+
 
 @media (prefers-color-scheme: light) {
     body {
-        background-color: hsl(0, 14%, 97%); /* Dark mode background */
-        color: #0f0e0e; /* Dark mode text color */
+        background-color: hsl(0, 14%, 97%);
+        color: #0f0e0e; 
     }
 
     .about {
@@ -341,20 +339,20 @@ body {
     }
 
     .navbar {
-        background-color: #333; /* Dark mode background */
+        background-color: #333; 
         box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
     }
 
     .navbar .logo {
-        color: #ffffff; /* Dark mode text color */
+        color: #ffffff; 
     }
 
     .navbar .nav-links li a {
-        color: #fff; /* Dark mode text color */
+        color: #fff; 
     }
 
     .navbar .hamburger span {
-        background-color: white; /* Dark mode icon color */
+        background-color: white; 
     }
     .circle-container {
         border-color:black;}
